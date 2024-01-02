@@ -274,9 +274,11 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    padding-top: 3rem;
+  .main {
+    display: block;
+    padding-top: 14rem;
   }
+
   .accordion {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
@@ -284,6 +286,7 @@ body {
       'accordion';
     height: auto;
     padding: 2rem;
+    margin: 0 auto;
   }
 
   .accordion.move-square::before {
