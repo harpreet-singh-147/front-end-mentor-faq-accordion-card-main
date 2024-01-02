@@ -274,6 +274,9 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    padding-top: 3rem;
+  }
   .accordion {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
